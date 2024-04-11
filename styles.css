@@ -1,6 +1,7 @@
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
 }
 body {
   background-color: white;
@@ -12,7 +13,7 @@ h1 {
 }
 
 .links-pages {
-  background-color: antiquewhite;
+  background-color: #fae7c9;
 }
 li,
 a {
@@ -43,9 +44,6 @@ ol li {
   display: inline-block;
 }
 
-body.Ramen {
-  background-color: rgb(239, 194, 219);
-}
 .web_fullstack_color {
   color: #a79277;
   background-color: #fff2e1;
