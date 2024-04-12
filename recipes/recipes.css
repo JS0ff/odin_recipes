@@ -9,7 +9,6 @@
   padding: 18px;
 }
 h1 {
-  text-align: center;
 }
 .images {
   text-align: center;
@@ -28,5 +27,15 @@ h1 {
   margin: 20px;
 }
 .ingredients {
+  display: inline-block;
+}
+.header ul {
+  padding: 0;
+}
+.header li {
+  display: inline-block;
+}
+.header a {
+  color: black;
   display: inline-block;
 }
