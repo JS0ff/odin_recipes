@@ -58,10 +58,10 @@ header{
   background-size:cover;
 }
 .odin-logo{
-  width: 150px;
+  width: 10rem;
   background-color: rgba(23, 25, 22, 0.553);
   border-radius: 10px;
 }
 .odin-logo img{
-  width: 100px;
+  width: 60%;
 }
