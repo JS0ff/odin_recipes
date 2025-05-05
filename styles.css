@@ -50,3 +50,8 @@ ol li {
   color: #a79277;
   background-color: #fff2e1;
 }
+header{
+  height: 150px;
+  background-image: url(images/jhigu-bhoye-q9TtiGa5yJQ-unsplash.jpg);
+  background-size:cover;
+}
