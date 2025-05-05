@@ -52,7 +52,16 @@ ol li {
   background-color: #fff2e1;
 }
 header{
+  display: flex;
   height: 150px;
   background-image: url(images/jhigu-bhoye-q9TtiGa5yJQ-unsplash.jpg);
   background-size:cover;
+}
+.odin-logo{
+  width: 150px;
+  background-color: rgba(23, 25, 22, 0.553);
+  border-radius: 10px;
+}
+.odin-logo img{
+  width: 100px;
 }
