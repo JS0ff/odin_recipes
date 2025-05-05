@@ -53,6 +53,7 @@ ol li {
 }
 header{
   display: flex;
+  justify-content: space-between;
   height: 150px;
   background-image: url(images/jhigu-bhoye-q9TtiGa5yJQ-unsplash.jpg);
   background-size:cover;
@@ -65,12 +66,18 @@ header{
 .odin-logo img{
   width: 60%;
 }
-.nav a{
+.nav div a{
   text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.nav a:hover{
+  color: rgb(118, 118, 118);
 }
 .nav{
+  background-color: rgba(52, 52, 52, 0.525);
+  flex-direction: column;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  justify-content: space-between;
   font-size: 18px;
-  color: rgb(28, 122, 204);
 }
