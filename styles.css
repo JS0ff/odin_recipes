@@ -7,7 +7,7 @@
 }
 body {
   background-color: white;
-  text-align: center;
+  text-align: start;
 }
 h1 {
   color: rgb(70, 172, 63);
@@ -88,4 +88,29 @@ header{
 }
 main{
   background-color: #EDE8DC;
+}
+.discover{
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  border-bottom: dashed 3px #E7CCCC;
+}
+.discover h2{
+  display: flex;
+  height:fit-content;
+  position: relative;
+  left: 50px;
+  top: 50px;
+  font-size: 40px;
+}
+.menu{
+  position: relative;
+  left: 100px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.menu img{
+  height: 250px;
+  border-radius: 15px;
 }
