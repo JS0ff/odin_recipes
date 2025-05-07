@@ -54,30 +54,34 @@ ol li {
 header{
   display: flex;
   justify-content: space-between;
-  height: 150px;
-  background-image: url(images/jhigu-bhoye-q9TtiGa5yJQ-unsplash.jpg);
+  height: 100px;
+  background-color: #A5B68D;
   background-size:cover;
 }
 .odin-logo{
-  width: 10rem;
-  background-color: rgba(23, 25, 22, 0.553);
+  width: 5rem;
+  height: 5rem;
   border-radius: 10px;
-}
-.odin-logo img{
-  width: 60%;
 }
 .nav div a{
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+.nav div{
+  border: solid 2px black;
+  border-radius: 5px;
+}
 .nav a:hover{
-  color: rgb(118, 118, 118);
+  color: rgb(38, 94, 108);
 }
 .nav{
+  gap: 10px;
   background-color: rgba(52, 52, 52, 0.525);
-  flex-direction: column;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   font-size: 18px;
+}
+main{
+  background-color: #EDE8DC;
 }
