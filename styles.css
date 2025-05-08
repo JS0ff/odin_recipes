@@ -5,6 +5,9 @@
     padding: 0px;
   box-sizing: border-box;
 }
+:root{
+  min-height: 100%;
+}
 body {
   background-color: white;
   text-align: start;
@@ -99,7 +102,7 @@ main{
   display: flex;
   height:fit-content;
   position: relative;
-  left: 50px;
+
   top: 50px;
   font-size: 40px;
 }
@@ -113,4 +116,16 @@ main{
 .menu img{
   height: 250px;
   border-radius: 15px;
+}
+.pages{
+  background-color: #C1CFA1;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.page{
+  height: 200px;
+  width:  200px;
+  border: 2px solid peachpuff;
 }
