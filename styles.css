@@ -131,4 +131,17 @@ main{
 }
 .pages{
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.pages img{
+  border-radius: 25px;
+}
+.page{
+  display: grid;
+  grid-template-rows: 5fr 1fr;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
 }
